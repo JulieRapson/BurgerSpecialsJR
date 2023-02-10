@@ -146,6 +146,7 @@ Partial Class frmBurgers
         Me.Controls.Add(Me.btnPrime)
         Me.Controls.Add(Me.picVeggie)
         Me.Controls.Add(Me.picPrime)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Name = "frmBurgers"
         Me.Text = "Burger Specials"
         CType(Me.picVeggie, System.ComponentModel.ISupportInitialize).EndInit()

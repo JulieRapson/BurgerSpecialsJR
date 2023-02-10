@@ -2,6 +2,7 @@
 'Developer: Julie Rapson
 'Date: Edited on 2/9/2023 --- added button functionality and pictures
 'Purpose: Application to give a user two choices of burgers. They can choose one and exit out of the program
+'test git push comment'
 Public Class frmBurgers
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -43,5 +44,9 @@ Public Class frmBurgers
         btnSelectMeal.Enabled = False 'Disabled because selection was made - stuck with the one you got!
         btnPrime.Enabled = False 'Disabled because selection was made
         btnVeggie.Enabled = False 'Disabled because selection was made
+    End Sub
+
+    Private Sub picPrime_Click(sender As Object, e As EventArgs) Handles picPrime.Click
+
     End Sub
 End Class
